@@ -1,15 +1,10 @@
 /*
 https://www.hackerrank.com/challenges/counting-valleys/problem
 
- 
  */
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+
 
 public class Counting_valley {
 
@@ -17,7 +12,7 @@ public class Counting_valley {
         int counter = 0;
 
         int[] str = new int[n];
-
+        // copy to new array U -> 1, D -> -1 to caculate the sum
         for (int x = 0; x < s.length(); x++) {
             if (s.charAt(x) == 'U') {
                 str[x] = 1;
@@ -25,6 +20,8 @@ public class Counting_valley {
                 str[x] = -1;
             }
         }
+        // if sum == 0 mean the hiker go to sea level 
+        // if sumPre < 0 mean they go from below level 
         int sum = 0;
         for (int x = 0; x < str.length; x++) {
             int sumPre = sum;
