@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /*
-
+https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
  */
 public class Breaking_the_record {
 
