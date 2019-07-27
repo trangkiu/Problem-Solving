@@ -1,3 +1,5 @@
+package ProblemSolving_Easy;
+
 
 import java.util.Arrays;
 import java.util.Scanner;

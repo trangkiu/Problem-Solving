@@ -1,3 +1,5 @@
+package ProblemSolving_Easy;
+
 /*
 https://www.hackerrank.com/challenges/counting-valleys/problem
 
